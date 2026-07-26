@@ -147,5 +147,17 @@ with col_derecha:
     st.plotly_chart(fig, use_container_width=True)
 
 st.markdown("---")
-st.caption("📋 **Estructura metodológica:** Eje X (Daño biológico real), Eje Y (Fuerza cognitiva/planificación del deseo de morir) y Eje Z (Peligrosidad intrínseca de la acción elegida). " \
-"Calculadora creada por Carlos Gómez Sánchez-Lafuente")
+st.caption("📋 **Estructura metodológica:** Eje X (Daño biológico real), Eje Y (Fuerza cognitiva/planificación del deseo de morir) y Eje Z (Peligrosidad intrínseca de la acción elegida).")
+
+# Pie de página destacado con la autoría
+st.markdown("---")
+st.markdown(
+    """
+    <div style="text-align: left; padding: 10px;">
+        <h3 style="margin: 0; color: #4A5568; font-weight: 600;">
+            Creada por Carlos Gómez Sánchez-Lafuente
+        </h3>
+    </div>
+    """,
+    unsafe_allow_html=True
+)
