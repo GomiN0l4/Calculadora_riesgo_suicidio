@@ -6,7 +6,7 @@ import plotly.graph_objects as go
 st.set_page_config(page_title="Calculadora de Riesgo Suicidio 3D", page_icon="🩺", layout="wide")
 
 st.title("🩺 Calculadora de Riesgo de Suicidio (Modelo 3D)")
-st.write("Visualización interactiva basada estrictamente en las tres variables de tus apuntes (MDRS, SIS y LSARS-II).")
+st.write("Visualización interactiva basada estrictamente en las tres variables clave para evaluar el riesgo de suicidio de una persona que hace un intento previo (MDRS, SIS y LSARS-II).")
 
 st.markdown("---")
 
